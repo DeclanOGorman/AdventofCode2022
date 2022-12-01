@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "AdventofCode2021",
+			"path": "../../home/gitpod/AdventofCode2021"
+		}
+	],
+	"settings": {}
+}
