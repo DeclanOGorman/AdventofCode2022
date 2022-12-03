@@ -1,6 +1,4 @@
-with open('./3/input.txt', 'r') as f:
-    input = [[set(a[:len(a)//2]), set(a[len(a)//2:]), set(a.strip())] for a in f]
-
+input = [[set(a[:len(a)//2]), set(a[len(a)//2:]), set(a.strip())] for a in open('./3/input.txt', 'r')]
 def priority(c) : return ord(c.lower()) - 96 + (26 if c.isupper() else 0)
 
 count = sum([priority(c) for i in input for c in i[0] if c in i[1]])
