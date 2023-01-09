@@ -5,7 +5,7 @@
 from datetime import datetime
 from termcolor import colored  # https://pypi.org/project/termcolor/
 import json
-with open('./Leaderboard/Day25.json') as f: 
+with open('./Leaderboard/Day25-9Jan.json') as f: 
     board = json.loads(f.readline().strip())
 
 data = list()
